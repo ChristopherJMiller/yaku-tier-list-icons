@@ -1,0 +1,210 @@
+
+[[yaku]]
+name = "Concealed Hand"
+han = 1
+closed_only = true
+
+[[yaku]]
+name = "Riichi"
+han = 1
+closed_only = true
+
+[[yaku]]
+name = "Ippsatsu"
+han = 1
+closed_only = true
+
+[[yaku]]
+name = "Pinfu"
+han = 1
+closed_only = true
+
+[[yaku]]
+name = "Pure Double Sequence"
+han = 1
+closed_only = true
+
+[[yaku]]
+name = "Under the sea"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Under the river"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "After a Kan"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Robbing a Kan"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "All Simples"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Yakuhai"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Double Riichi"
+han = 2
+closed_only = true
+
+[[yaku]]
+name = "Closed Half Outside Hand"
+han = 2
+closed_only = true
+
+[[yaku]]
+name = "Open Half Outside Hand"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Closed Triple Sequence"
+han = 2
+closed_only = true
+
+[[yaku]]
+name = "Open Triple Sequence"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Closed Pure Straight"
+han = 2
+closed_only = true
+
+[[yaku]]
+name = "Open Pure Straight"
+han = 1
+closed_only = false
+
+[[yaku]]
+name = "Toitoi"
+han = 2
+closed_only = false
+
+[[yaku]]
+name = "Triple Concealed Triplets"
+han = 2
+closed_only = false
+
+[[yaku]]
+name = "Triple Kan"
+han = 2
+closed_only = false
+
+[[yaku]]
+name = "Seven Pairs"
+han = 2
+closed_only = true
+
+[[yaku]]
+name = "Closed Half Flush"
+han = 3
+closed_only = true
+
+[[yaku]]
+name = "Open Half Flush"
+han = 2
+closed_only = false
+
+[[yaku]]
+name = "Closed Fully Outside Hand"
+han = 3
+closed_only = true
+
+[[yaku]]
+name = "Open Fully Outside Hand"
+han = 2
+closed_only = false
+
+[[yaku]]
+name = "Twice Pure Double Sequence"
+han = 3
+closed_only = true
+
+[[yaku]]
+name = "Open Full Flush"
+han = 4
+closed_only = false
+
+[[yaku]]
+name = "Closed Full Flush"
+han = 5
+closed_only = true
+
+[[yaku]]
+name = "Open Chinitsu"
+han = 5
+closed_only = false
+
+[[yaku]]
+name = "Closed Chinitsu"
+han = 6
+closed_only = true
+
+[[yaku]]
+name = "Blessing of Heaven"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Blessing of Earth"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Big Three Dragons"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Four Concealed Triplets"
+han = 7
+closed_only = true
+
+[[yaku]]
+name = "All Honors"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "All Green"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Thirsteen Orphans"
+han = 7
+closed_only = true
+
+[[yaku]]
+name = "Four Little Winds"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "All Terminals"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Four Quads"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Nine Gates"
+han = 7
+closed_only = true
