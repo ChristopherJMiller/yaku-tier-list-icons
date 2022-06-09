@@ -8,7 +8,8 @@ use indicatif::ProgressBar;
 pub struct Yaku {
   pub name: String,
   pub han: u32,
-  pub closed_only: bool
+  pub closed_only: bool,
+  pub additional_on_closed: Option<bool>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -31,10 +32,18 @@ fn draw_icon(font: &Vec<u8>, yaku: Yaku) {
   let han = if yaku.han > 6 {
     "Y".to_string()
   } else {
-    format!("{}", yaku.han)
+    if yaku.additional_on_closed.is_some() {
+      format!("{}/{}", yaku.han, yaku.han + 1)
+    } else {
+      format!("{}", yaku.han)
+    }
   };
 
-  let han_text = Text::new((256 - (36 * 2), 2), [255, 0, 0, 0], font, WORD_HEIGHT as f32 * 2.0, 1.0, han);
+  let han_text = if yaku.additional_on_closed.is_some() {
+    Text::new((240 - (42 * 3), 2), [255, 0, 0, 0], font, WORD_HEIGHT as f32 * 2.0, 1.0, han)
+  } else {
+    Text::new((240 - (36 * 2), 2), [255, 0, 0, 0], font, WORD_HEIGHT as f32 * 2.0, 1.0, han)
+  };
   canvas.draw(&han_text); 
 
   image::save_buffer(format!("output/{}.png", yaku.name), &buf, x as u32, y as u32, ColorType::Rgba8).unwrap();

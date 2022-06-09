@@ -25,12 +25,12 @@ han = 1
 closed_only = true
 
 [[yaku]]
-name = "Under the sea"
+name = "Under the Sea"
 han = 1
 closed_only = false
 
 [[yaku]]
-name = "Under the river"
+name = "Under the River"
 han = 1
 closed_only = false
 
@@ -60,34 +60,22 @@ han = 2
 closed_only = true
 
 [[yaku]]
-name = "Closed Half Outside Hand"
-han = 2
+name = "Half Outside Hand"
+han = 1
 closed_only = true
+additional_on_closed = true
 
 [[yaku]]
-name = "Open Half Outside Hand"
+name = "Triple Sequence"
+han = 1
+closed_only = true
+additional_on_closed = true
+
+[[yaku]]
+name = "Pure Straight"
 han = 1
 closed_only = false
-
-[[yaku]]
-name = "Closed Triple Sequence"
-han = 2
-closed_only = true
-
-[[yaku]]
-name = "Open Triple Sequence"
-han = 1
-closed_only = false
-
-[[yaku]]
-name = "Closed Pure Straight"
-han = 2
-closed_only = true
-
-[[yaku]]
-name = "Open Pure Straight"
-han = 1
-closed_only = false
+additional_on_closed = true
 
 [[yaku]]
 name = "Toitoi"
@@ -110,24 +98,16 @@ han = 2
 closed_only = true
 
 [[yaku]]
-name = "Closed Half Flush"
-han = 3
-closed_only = true
-
-[[yaku]]
-name = "Open Half Flush"
+name = "Half Flush"
 han = 2
 closed_only = false
+additional_on_closed = true
 
 [[yaku]]
-name = "Closed Fully Outside Hand"
-han = 3
-closed_only = true
-
-[[yaku]]
-name = "Open Fully Outside Hand"
+name = "Fully Outside Hand"
 han = 2
 closed_only = false
+additional_on_closed = true
 
 [[yaku]]
 name = "Twice Pure Double Sequence"
@@ -135,24 +115,10 @@ han = 3
 closed_only = true
 
 [[yaku]]
-name = "Open Full Flush"
-han = 4
-closed_only = false
-
-[[yaku]]
-name = "Closed Full Flush"
-han = 5
-closed_only = true
-
-[[yaku]]
-name = "Open Chinitsu"
+name = "Full Flush"
 han = 5
 closed_only = false
-
-[[yaku]]
-name = "Closed Chinitsu"
-han = 6
-closed_only = true
+additional_on_closed = true
 
 [[yaku]]
 name = "Blessing of Heaven"
@@ -167,6 +133,11 @@ closed_only = false
 [[yaku]]
 name = "Big Three Dragons"
 han = 7
+closed_only = false
+
+[[yaku]]
+name = "Little Three Dragons"
+han = 2
 closed_only = false
 
 [[yaku]]
@@ -185,7 +156,7 @@ han = 7
 closed_only = false
 
 [[yaku]]
-name = "Thirsteen Orphans"
+name = "Thirteen Orphans"
 han = 7
 closed_only = true
 
@@ -195,12 +166,22 @@ han = 7
 closed_only = false
 
 [[yaku]]
+name = "Four Big Winds"
+han = 7
+closed_only = false
+
+[[yaku]]
+name = "Blessing of Man"
+han = 5
+closed_only = true
+
+[[yaku]]
 name = "All Terminals"
 han = 7
 closed_only = false
 
 [[yaku]]
-name = "Four Quads"
+name = "Four Kan"
 han = 7
 closed_only = false
 
